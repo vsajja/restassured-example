@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+def junitVersion = '4.13.2'
+def restAssuredVersion = '5.0.0'
+def jsonSimpleVersion = '1.1.1'
+
+dependencies {
+    testImplementation "junit:junit:${junitVersion}"
+    testImplementation "io.rest-assured:rest-assured:${restAssuredVersion}"
+    testImplementation "com.googlecode.json-simple:json-simple:${jsonSimpleVersion}"
+}
+
+test {
+    testLogging {
+        showStandardStreams = true
+        events 'passed', 'skipped', 'failed'
+    }
+}
