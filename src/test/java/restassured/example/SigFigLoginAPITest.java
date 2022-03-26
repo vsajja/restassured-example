@@ -3,6 +3,8 @@ package restassured.example;
 import org.junit.Assert;
 import org.junit.Test;
 
+
+
 /**
  * Example test suite for the Login API on SigFig.com
  * using restassured.
