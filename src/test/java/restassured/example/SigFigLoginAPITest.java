@@ -86,7 +86,7 @@ public class SigFigLoginAPITest {
             statusCode(200).
             body("success.user.username", equalTo(SIFIG_LOGIN_VALID_USERNAME)).
             body("success.user.isAuthenticated", equalTo(true)).
-            cookie("nv_ps_0"). // checks if the nv_ps_01session cookie is set in the response
+            cookie("nv_ps_0"). // checks if the nv_ps_01 session cookie is set in the response
         log().all();
     }
 }

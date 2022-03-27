@@ -1,10 +1,10 @@
-# restassured-example
+# rest-assured example
 
 Example test suite for the SigFig.com Login API using rest-assured and JUnit.
 
 ## Prerequisites
 
-- [Java JDK](|https://adoptopenjdk.net) version 8 or higher to be installed. To check installation:
+- [Java JDK](https://adoptopenjdk.net) version 8 or higher to be installed. To check installation:
     ```
     $ java -version
     openjdk version "11.0.14.1" 2022-02-08
@@ -34,4 +34,5 @@ After the test run, reports can be found in the `build/reports/tests` directory.
 
 ## Useful Links
 
--  [Rest-Assured  User Guide](https://github.com/rest-assured/rest-assured/wiki/Usage)
+- [Rest-Assured  User Guide](https://github.com/rest-assured/rest-assured/wiki/Usage)
+- [JSON Path Finder](https://jsonpathfinder.com/) (useful for validating JSON responses)
